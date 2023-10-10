@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration - Your Website</title>
+    <!-- Bootstrap CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <!-- custom CSS for additional styling -->
+    <link rel="stylesheet" href="../css/registration.css" />
+  </head>
+  <body>
+    <!-- Registration Form with Image -->
+    <div class="container">
+      <div class="row justify-content-center align-items-center min-height">
+        <!-- Image on the Left -->
+        <div class="col-md-8">
+          <img
+            src="../images/registration_img.jpg"
+            alt="Registration Image"
+            class="registration-image"
+          />
+          <div class="image-text">
+            <h1>Welcome to Website</h1>
+            <p>Create an account to get started.</p>
+          </div>
+        </div>
+        <!-- Form on the Right -->
+        <div class="col-md-4">
+          <form class="registration-form">
+            <h2 class="text-center mb-4">Sign Up</h2>
+            <div class="form-group">
+              <label for="username">Username *</label>
+              <input
+                type="text"
+                class="form-control"
+                id="username"
+                name="username"
+                minlength="5"
+                title="Username should be atleast 5 letters"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="email">Email *</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+           
+            <div class="form-group">
+                <label for="password">Password *</label>
+                <input type="password" class="form-control" id="password" name="password" required
+                       minlength="8" 
+                       pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).*$"
+                       title="Password must contain at least 8 characters, including one uppercase letter, one lowercase letter, and one digit">
+                
+            </div>
+            <div class="form-group">
+              <label for="confirmPassword">Confirm Password *</label>
+              <input
+                type="password"
+                class="form-control"
+                id="confirmPassword"
+                name="confirmPassword"
+                required
+              />
+            </div>
+            <div class="form-group">
+                <label>How did you hear about us? *</label><br>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="socialMedia" name="howDidYouHear" value="socialMedia">
+                    <label class="form-check-label" for="socialMedia">Social Media</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="friend" name="howDidYouHear" value="friend">
+                    <label class="form-check-label" for="friend">Friend/Family</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="onlineSearch" name="howDidYouHear" value="onlineSearch">
+                    <label class="form-check-label" for="onlineSearch">Online Search</label>
+                </div>
+                <div class="form-check">
+                    <input type="radio" class="form-check-input" id="other" name="howDidYouHear" value="other">
+                    <label class="form-check-label" for="other">Other</label>
+                </div>
+            </div>
+            <div class="form-check">
+              <input type="checkbox" class="form-check-input" id="rememberMe" />
+              <label class="form-check-label" for="rememberMe"
+                >I agree the terms and conditions *</label
+              >
+            </div>
+            <div class="d-grid gap-2 col-6 mx-auto">
+              <button type="submit" class="btn btn-primary btn-block mt-3">
+                Sign Up
+              </button>
+            </div>
+            <div class="text-center mt-3">
+              <p>
+                Already have an account?
+                <a
+                  href="../htmlpages/loginpage.html"
+                  class="signin-link"
+                  target="_blank"
+                  >Sign in</a
+                >
+              </p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!--  Bootstrap JS  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

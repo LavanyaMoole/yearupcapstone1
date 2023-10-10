@@ -1,9 +1,8 @@
+
 body {
-  background-color: rgb(255, 255, 255);
-}
-/* Linear Gradient from top to bottom */
-body {
-    background: linear-gradient(to bottom, #ff6b6b, #007bff);
+    background: linear-gradient(135deg, #f06, #6f0, #06f, #f06);
+    background-size: 400% 400%;
+    animation: gradient 15s linear infinite;
 }
 
 
@@ -18,8 +17,6 @@ body {
 /* Style the login form */
 .login-form {
   background-color: #fff;
-  border: 5px solid #0056b3;
-  border-radius: 5px;
   padding: 20px;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
 }
