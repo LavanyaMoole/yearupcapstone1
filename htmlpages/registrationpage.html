@@ -56,14 +56,19 @@
                 required
               />
             </div>
-           
+
             <div class="form-group">
-                <label for="password">Password *</label>
-                <input type="password" class="form-control" id="password" name="password" required
-                       minlength="8" 
-                       pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).*$"
-                       title="Password must contain at least 8 characters, including one uppercase letter, one lowercase letter, and one digit">
-                
+              <label for="password">Password *</label>
+              <input
+                type="password"
+                class="form-control"
+                id="password"
+                name="password"
+                required
+                minlength="8"
+                pattern="^(?=.*[A-Z])(?=.*[a-z])(?=.*\d).*$"
+                title="Password must contain at least 8 characters, including one uppercase letter, one lowercase letter, and one digit"
+              />
             </div>
             <div class="form-group">
               <label for="confirmPassword">Confirm Password *</label>
@@ -76,23 +81,53 @@
               />
             </div>
             <div class="form-group">
-                <label>How did you hear about us? *</label><br>
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="socialMedia" name="howDidYouHear" value="socialMedia">
-                    <label class="form-check-label" for="socialMedia">Social Media</label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="friend" name="howDidYouHear" value="friend">
-                    <label class="form-check-label" for="friend">Friend/Family</label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="onlineSearch" name="howDidYouHear" value="onlineSearch">
-                    <label class="form-check-label" for="onlineSearch">Online Search</label>
-                </div>
-                <div class="form-check">
-                    <input type="radio" class="form-check-input" id="other" name="howDidYouHear" value="other">
-                    <label class="form-check-label" for="other">Other</label>
-                </div>
+              <label>How did you hear about us? *</label><br />
+              <div class="form-check">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  id="socialMedia"
+                  name="howDidYouHear"
+                  value="socialMedia"
+                />
+                <label class="form-check-label" for="socialMedia"
+                  >Social Media</label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  id="friend"
+                  name="howDidYouHear"
+                  value="friend"
+                />
+                <label class="form-check-label" for="friend"
+                  >Friend/Family</label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  id="onlineSearch"
+                  name="howDidYouHear"
+                  value="onlineSearch"
+                />
+                <label class="form-check-label" for="onlineSearch"
+                  >Online Search</label
+                >
+              </div>
+              <div class="form-check">
+                <input
+                  type="radio"
+                  class="form-check-input"
+                  id="other"
+                  name="howDidYouHear"
+                  value="other"
+                />
+                <label class="form-check-label" for="other">Other</label>
+              </div>
             </div>
             <div class="form-check">
               <input type="checkbox" class="form-check-input" id="rememberMe" />
