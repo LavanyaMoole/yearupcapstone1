@@ -11,12 +11,9 @@
 }
 
 .navbar-nav .nav-link {
-    color: #1b1a1a; /* Link color */
+    color: #1b1a1a; 
 }
-ul{
-    display: flex;
-    justify-content: flex-end;
-}
+
 .navbar-nav{
     display: flex;
     justify-content: flex-end;
@@ -44,7 +41,7 @@ ul{
 }
 
 .card:hover {
-    border: 3px solid #18191a; /* Change the border on hover */
+    border: 3px solid #18191a;
 }
 .btn .btn-primary{
     margin-left: 20px;
@@ -61,7 +58,7 @@ body{
   color: #02060a; 
 }
 .footer {
-    background-color: #333; /* Footer background color */
-    color: #fff; /* Text color in footer */
+    background-color: #333; 
+    color: #fff; 
     padding: 5px 0;
 }
