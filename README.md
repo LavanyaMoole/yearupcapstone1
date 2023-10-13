@@ -1,10 +1,11 @@
-# Lav's Art Website
+# L@v's Art Website
+## Description
 In this website one can buy the different hand made arts and they can sell their art.
-* If the new users don't know much about the website, they an get an idea from the home page.
+* If the new users don't know much about the website, they can get an idea from the home page.
 * If the user don't have an account they can create account buy using Registration/Signup page
 * If the user have already an account they can login to the website using login form.
 * User can shop the art from products page and they can add to cart or favourite items.
-* when the user are ready to place an order they can use checkout page fill the details and they can place an order and can view the cart items.
+* when the users are ready to place an order they can use checkout page fill the details, can view the cart items and they can place an order.
 
 some of the page designs of my website are:
 
@@ -14,7 +15,7 @@ some of the page designs of my website are:
 
 ## Registration page
 
-![Registration page](./images/Signup.png)
+![Registration page](./images/registration.png)
 ## Home page
 ![homepage](./images/homepage1.png)
 
@@ -23,3 +24,9 @@ some of the page designs of my website are:
 ![Products Page](./images/products.png)
 ## checkout page
 ![Checkout Page](./images/checkoutpage.png)
+
+### Tools used:
+* Bootstrap, MdBootstrap, VsCode IDE, Git, GitHub
+
+### Technologies used:
+* Html, CSS, Bootstrap framework
