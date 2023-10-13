@@ -1,10 +1,8 @@
-
 body {
-    background: linear-gradient(135deg, #f06, #6f0, #06f, #f06);
-    background-size: 400% 400%;
-    animation: gradient 15s linear infinite;
+  background: linear-gradient(135deg, #f06, #6f0, #06f, #f06);
+  background-size: 400% 400%;
+  animation: gradient 15s linear infinite;
 }
-
 
 /* Center the login form vertically */
 .min-height {

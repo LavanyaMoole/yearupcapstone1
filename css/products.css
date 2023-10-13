@@ -1,67 +1,67 @@
 /* Navbar Styles */
 .navbar {
-    background: linear-gradient(135deg, #f06, #6f0, #06f, #f06);
-    background-size: 400% 400%;
-    animation: gradient 15s linear infinite; 
-    
+  background: linear-gradient(135deg, #f06, #6f0, #06f, #f06);
+  background-size: 400% 400%;
+  animation: gradient 15s linear infinite;
 }
 
 .navbar-brand {
-    font-weight: bold;
+  font-weight: bold;
 }
 
 .navbar-nav .nav-link {
-    color: #1b1a1a; 
+  color: #1b1a1a;
 }
 
-.navbar-nav{
-    display: flex;
-    justify-content: flex-end;
-    margin-left: 300px;
+.navbar-nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-left: 300px;
 }
- .nav-item{
-    margin-left: 5px;
+.nav-item {
+  margin-left: 5px;
 }
-.nav-link:hover{
-    color: #fff;
-} 
+.nav-link:hover {
+  color: #fff;
+}
 
 /* Center product title */
 .card-title {
-    text-align: center;
+  text-align: center;
 }
 
 /* Add space between product cards */
 .card {
-    margin: 15px;
-    border: 1px solid #150f0f; 
-    border-radius: 5px; 
-    padding: 10px;
-    
+  margin: 15px;
+  border: 1px solid #150f0f;
+  border-radius: 5px;
+  padding: 10px;
 }
 
 .card:hover {
-    border: 3px solid #18191a;
+  border: 3px solid #18191a;
 }
-.btn .btn-primary{
-    margin-left: 20px;
+.btn .btn-primary {
+  margin-left: 20px;
 }
-span{
-    margin-right: 10px;
+span {
+  margin-right: 10px;
 }
-body{
-    background-color: #ffffff;
+body {
+  background-color: #ffffff;
 }
-.user-icon,.fav,.cart{
-    margin-left: 20px;
-    font-size: 25px; 
-  color: #02060a; 
+.user-icon,
+.fav,
+.cart {
+  margin-left: 20px;
+  font-size: 25px;
+  color: #02060a;
 }
 .footer {
-    background-color: #333; 
-    color: #fff; 
-    padding: 5px 0;
+  background-color: #333;
+  color: #fff;
+  padding: 5px 0;
 }
-.fa-cart-plus{
-    color: black;
+.fa-cart-plus {
+  color: black;
 }
